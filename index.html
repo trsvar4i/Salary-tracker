@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Finora — личные финансы</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=04e274a" />
 </head>
 <body>
   <div class="app-shell">
@@ -32,4 +32,4 @@
     </main>
   </div>
   <div class="modal-backdrop" id="modal"><div class="modal"><button class="modal-close" id="modalClose">×</button><span class="eyebrow" id="modalEyebrow">НОВАЯ ОПЕРАЦИЯ</span><h2 id="modalTitle">Добавить операцию</h2><form id="transactionForm"><div class="type-toggle"><button type="button" class="type-btn active" data-type="expense">Расход</button><button type="button" class="type-btn" data-type="income">Доход</button></div><label>Сумма<input id="amountInput" type="number" min="0.01" step="0.01" placeholder="0" required /></label><div class="form-row"><label>Категория<select id="categoryInput" required></select></label><label>Дата<input id="dateInput" type="date" required /></label></div><label>Описание<input id="descriptionInput" maxlength="80" placeholder="Например, продукты на неделю" /></label><button class="primary-btn submit-btn" type="submit">Сохранить операцию</button></form></div></div>
-  <div class="toast" id="toast"></div><script src="script.js"></script>
+  <div class="toast" id="toast"></div><script src="script.js?v=04e274a"></script>
